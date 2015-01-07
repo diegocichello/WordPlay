@@ -17,6 +17,8 @@
 		0A2C98B01A5CAD9600B32C04 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C98AF1A5CAD9600B32C04 /* EnterNameViewController.m */; };
 		0A2C98B31A5CAE2E00B32C04 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C98B21A5CAE2E00B32C04 /* EnterAdjectiveViewController.m */; };
 		0A2C98B61A5CAEA200B32C04 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C98B51A5CAEA200B32C04 /* ResultViewController.m */; };
+		29ACF0BB1A5CBA6700F1858A /* EnterVerbViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ACF0BA1A5CBA6700F1858A /* EnterVerbViewController.m */; };
+		29ACF0BE1A5CBA9600F1858A /* EnterNounViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ACF0BD1A5CBA9600F1858A /* EnterNounViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,10 @@
 		0A2C98B21A5CAE2E00B32C04 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
 		0A2C98B41A5CAEA200B32C04 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
 		0A2C98B51A5CAEA200B32C04 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		29ACF0B91A5CBA6700F1858A /* EnterVerbViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterVerbViewController.h; sourceTree = "<group>"; };
+		29ACF0BA1A5CBA6700F1858A /* EnterVerbViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterVerbViewController.m; sourceTree = "<group>"; };
+		29ACF0BC1A5CBA9600F1858A /* EnterNounViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNounViewController.h; sourceTree = "<group>"; };
+		29ACF0BD1A5CBA9600F1858A /* EnterNounViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNounViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +101,10 @@
 				0A2C988F1A5CAB5000B32C04 /* ViewController.h */,
 				0A2C98901A5CAB5000B32C04 /* ViewController.m */,
 				0A2C98921A5CAB5000B32C04 /* Main.storyboard */,
+				29ACF0BC1A5CBA9600F1858A /* EnterNounViewController.h */,
+				29ACF0BD1A5CBA9600F1858A /* EnterNounViewController.m */,
+				29ACF0B91A5CBA6700F1858A /* EnterVerbViewController.h */,
+				29ACF0BA1A5CBA6700F1858A /* EnterVerbViewController.m */,
 				0A2C98AE1A5CAD9600B32C04 /* EnterNameViewController.h */,
 				0A2C98AF1A5CAD9600B32C04 /* EnterNameViewController.m */,
 				0A2C98B41A5CAEA200B32C04 /* ResultViewController.h */,
@@ -235,6 +245,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A2C98911A5CAB5000B32C04 /* ViewController.m in Sources */,
+				29ACF0BE1A5CBA9600F1858A /* EnterNounViewController.m in Sources */,
+				29ACF0BB1A5CBA6700F1858A /* EnterVerbViewController.m in Sources */,
 				0A2C988E1A5CAB5000B32C04 /* AppDelegate.m in Sources */,
 				0A2C98B31A5CAE2E00B32C04 /* EnterAdjectiveViewController.m in Sources */,
 				0A2C98B01A5CAD9600B32C04 /* EnterNameViewController.m in Sources */,
@@ -430,6 +442,7 @@
 				0A2C98AA1A5CAB5000B32C04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0A2C98AB1A5CAB5000B32C04 /* Build configuration list for PBXNativeTarget "WordPlayTests" */ = {
 			isa = XCConfigurationList;
@@ -438,6 +451,7 @@
 				0A2C98AD1A5CAB5000B32C04 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -21,10 +21,34 @@
     // Do any additional setup after loading the view.
 }
 
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    if ([self.nameTextField.text isEqualToString:@""])
+    {
+
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Can't be empty"
+                                                        message:@"Name not inserted"
+                                                       delegate:self
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+        return NO;
+    }
+    else
+    {
+        return YES;
+    }
+}
+
+
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
-    EnterAdjectiveViewController *adjvc = segue.destinationViewController;
-    adjvc.name = self.nameTextField.text;
+
+
+    /*EnterAdjectiveViewController *adjvc = segue.destinationViewController;
+    adjvc.name = self.nameTextField.text;*/
+    self.name = self.nameTextField.text;
+
 }
 
 

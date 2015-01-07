@@ -8,6 +8,7 @@
 
 #import "ResultViewController.h"
 
+
 @interface ResultViewController ()
 @property (weak, nonatomic) IBOutlet UITextView *resultTextView;
 

@@ -22,6 +22,24 @@
     // Do any additional setup after loading the view.
 }
 
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    if ([self.adjectiveTextField.text isEqualToString:@""])
+    {
+
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Can't be empty"
+                                                        message:@"Adjective not inserted"
+                                                       delegate:self
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+        return NO;
+    }
+    else
+    {
+        return YES;
+    }
+}
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
 {
     ResultViewController *resultVC = segue.destinationViewController;
