@@ -11,4 +11,5 @@
 @interface EnterAdjectiveViewController : UIViewController
 @property NSString *name;
 
+
 @end

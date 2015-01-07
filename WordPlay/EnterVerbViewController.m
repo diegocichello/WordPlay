@@ -1,29 +1,28 @@
 //
-//  ResultViewController.m
+//  EnterVerbViewController.m
 //  WordPlay
 //
-//  Created by Kevin on 1/6/15.
+//  Created by Diego Cichello on 1/6/15.
 //  Copyright (c) 2015 Kevin Lee. All rights reserved.
 //
 
-#import "ResultViewController.h"
-#import "EnterNameViewController.h
+#import "EnterVerbViewController.h"
 
-
-@interface ResultViewController ()
-@property (weak, nonatomic) IBOutlet UITextView *resultTextView;
+@interface EnterVerbViewController ()
 
 @end
 
-@implementation ResultViewController
+@implementation EnterVerbViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
-    self.resultTextView.text = [NSString stringWithFormat:@"%@ thought himself to be very %@ today",  , self.adjective];
-
+    // Do any additional setup after loading the view.
 }
 
+- (void)didReceiveMemoryWarning {
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
 
 /*
 #pragma mark - Navigation

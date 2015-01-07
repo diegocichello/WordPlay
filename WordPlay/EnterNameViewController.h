@@ -10,6 +10,6 @@
 
 @interface EnterNameViewController : UIViewController
 
-@property NSString *name;
+
 
 @end
