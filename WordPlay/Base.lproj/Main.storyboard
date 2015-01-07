@@ -260,6 +260,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="VEC-og-nAf"/>
+                    <connections>
+                        <outlet property="enterNounTextField" destination="rfW-wE-3rg" id="na4-PR-hMh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8ON-5m-0Xa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -301,6 +304,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="ZOD-F9-f5A"/>
+                    <connections>
+                        <outlet property="enterVerbTextField" destination="vNt-uZ-psI" id="Fe8-09-De9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vaI-Xu-gDo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

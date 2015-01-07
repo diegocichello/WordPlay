@@ -45,9 +45,9 @@
 {
 
 
-    /*EnterAdjectiveViewController *adjvc = segue.destinationViewController;
-    adjvc.name = self.nameTextField.text;*/
-    self.name = self.nameTextField.text;
+    EnterAdjectiveViewController *adjvc = segue.destinationViewController;
+    adjvc.name = self.nameTextField.text;
+    
 
 }
 

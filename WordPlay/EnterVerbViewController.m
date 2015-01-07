@@ -7,8 +7,10 @@
 //
 
 #import "EnterVerbViewController.h"
+#import "EnterNounViewController.h"
 
 @interface EnterVerbViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *enterVerbTextField;
 
 @end
 
@@ -22,6 +24,35 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (BOOL)shouldPerformSegueWithIdentifier:(NSString *)identifier sender:(id)sender
+{
+    if ([self.enterVerbTextField.text isEqualToString:@""])
+    {
+
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Can't be empty"
+                                                        message:@"Verb not inserted"
+                                                       delegate:self
+                                              cancelButtonTitle:@"OK"
+                                              otherButtonTitles:nil];
+        [alert show];
+        return NO;
+    }
+    else
+    {
+        return YES;
+    }
+}
+
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    EnterNounViewController *nounVC = segue.destinationViewController;
+    nounVC.name = self.name;
+    nounVC.adjective = self.adjective;
+    nounVC.verb = self.enterVerbTextField.text;
+
+
 }
 
 /*
