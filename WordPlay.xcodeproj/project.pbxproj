@@ -14,6 +14,9 @@
 		0A2C98961A5CAB5000B32C04 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A2C98951A5CAB5000B32C04 /* Images.xcassets */; };
 		0A2C98991A5CAB5000B32C04 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A2C98971A5CAB5000B32C04 /* LaunchScreen.xib */; };
 		0A2C98A51A5CAB5000B32C04 /* WordPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C98A41A5CAB5000B32C04 /* WordPlayTests.m */; };
+		0A2C98B01A5CAD9600B32C04 /* EnterNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C98AF1A5CAD9600B32C04 /* EnterNameViewController.m */; };
+		0A2C98B31A5CAE2E00B32C04 /* EnterAdjectiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C98B21A5CAE2E00B32C04 /* EnterAdjectiveViewController.m */; };
+		0A2C98B61A5CAEA200B32C04 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A2C98B51A5CAEA200B32C04 /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		0A2C989E1A5CAB5000B32C04 /* WordPlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPlayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2C98A31A5CAB5000B32C04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0A2C98A41A5CAB5000B32C04 /* WordPlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPlayTests.m; sourceTree = "<group>"; };
+		0A2C98AE1A5CAD9600B32C04 /* EnterNameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterNameViewController.h; sourceTree = "<group>"; };
+		0A2C98AF1A5CAD9600B32C04 /* EnterNameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterNameViewController.m; sourceTree = "<group>"; };
+		0A2C98B11A5CAE2E00B32C04 /* EnterAdjectiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EnterAdjectiveViewController.h; sourceTree = "<group>"; };
+		0A2C98B21A5CAE2E00B32C04 /* EnterAdjectiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EnterAdjectiveViewController.m; sourceTree = "<group>"; };
+		0A2C98B41A5CAEA200B32C04 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		0A2C98B51A5CAEA200B32C04 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +95,12 @@
 				0A2C988F1A5CAB5000B32C04 /* ViewController.h */,
 				0A2C98901A5CAB5000B32C04 /* ViewController.m */,
 				0A2C98921A5CAB5000B32C04 /* Main.storyboard */,
+				0A2C98AE1A5CAD9600B32C04 /* EnterNameViewController.h */,
+				0A2C98AF1A5CAD9600B32C04 /* EnterNameViewController.m */,
+				0A2C98B41A5CAEA200B32C04 /* ResultViewController.h */,
+				0A2C98B51A5CAEA200B32C04 /* ResultViewController.m */,
+				0A2C98B11A5CAE2E00B32C04 /* EnterAdjectiveViewController.h */,
+				0A2C98B21A5CAE2E00B32C04 /* EnterAdjectiveViewController.m */,
 				0A2C98951A5CAB5000B32C04 /* Images.xcassets */,
 				0A2C98971A5CAB5000B32C04 /* LaunchScreen.xib */,
 				0A2C98881A5CAB5000B32C04 /* Supporting Files */,
@@ -221,7 +236,10 @@
 			files = (
 				0A2C98911A5CAB5000B32C04 /* ViewController.m in Sources */,
 				0A2C988E1A5CAB5000B32C04 /* AppDelegate.m in Sources */,
+				0A2C98B31A5CAE2E00B32C04 /* EnterAdjectiveViewController.m in Sources */,
+				0A2C98B01A5CAD9600B32C04 /* EnterNameViewController.m in Sources */,
 				0A2C988B1A5CAB5000B32C04 /* main.m in Sources */,
+				0A2C98B61A5CAEA200B32C04 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
